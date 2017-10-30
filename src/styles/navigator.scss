@@ -1,0 +1,196 @@
+$layout-min-height: 720px;
+
+.highLight {
+  border-left: 5px solid #01A982;
+  background: #DFDFDF;
+}
+
+.navHead {
+  height: 50px;
+  text-align: center;
+    .title > span {
+      font-family: HPEMetricMedium;
+      font-size: 20px;
+      line-height: 50px;
+      color: #333333;
+      float: left;
+}
+
+} 
+
+.navCol {
+  height: 38px;
+  text-align: center;
+}
+
+.newNav {
+  height:100%;
+  div.item {
+    height: 50px;
+    background: #ffffff;
+    text-align: center;
+  }
+}
+
+.mainTitle {
+  height: 50px;
+   .title{
+       span{
+         font-family: HPEMetricMedium;
+        }
+    }
+   span {
+    font-size: 20px;
+    line-height: 50px;
+    cursor: pointer;
+   }
+   span.icon {
+          font-size: 13px;
+          float: right;
+          cursor: pointer;
+       } 
+}
+
+.mainTitle:hover{
+    border-left: 5px solid #cccccc;
+    background: #f2f2f2;
+}
+
+
+.itemTitle {
+  height: 50px;
+   .title{
+       span{
+         font-family: HPEMetricMedium;
+        }
+    }
+   span {
+    font-size: 20px;
+    line-height: 50px;
+    //color: #333333;
+    cursor: pointer;
+    
+      :hover{
+        color:#01A982;
+      }
+
+   }
+   span.icon {
+          font-size: 13px;
+          float: right;
+          cursor: pointer;
+       }
+
+   a{
+    outline: none;
+  }
+
+    a>span>span:hover{
+    color:#01A982 !important;
+  }
+  
+}
+
+
+
+
+
+
+.subItemTitle {
+  height: 40px;
+  line-height: 40px;
+  a{
+    outline: none;
+  }
+  a>span>span:hover{
+    color:#01A982 !important;
+  }
+
+}
+
+
+
+.vertical {
+  padding-left: 20px;
+  color: #333333;
+  display: block;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+
+    span{
+         font-size: 20px;
+         font-family: HPEMetricMedium;
+    }
+
+}
+
+.cusMarginBottom {
+  margin-bottom: 20px;
+}
+
+.cusBorderButtom {
+  border-bottom: 2px solid #cccccc;
+}
+
+div.NarrowMode .seperator {
+  height: 2px;
+  background: #cccccc;
+}
+
+div.navCol > span.forward:hover {
+  color: #01A982;
+}
+
+.navBack {
+  height: 100%;
+  text-align: center;
+
+}
+
+.navBack > span {
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navBack span:nth-child(2) {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  background: url(../images/arrow_back.png) center;
+  vertical-align: middle;
+  border-style: none;
+  cursor:pointer;
+}
+
+.navBack span:nth-child(2):hover {
+  background: url(../images/arrow_back_hover.png) center;
+}
+
+.navForward > span {
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navForward span:nth-child(2) {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  background: url(../images/arrow_forward.png) center;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.navForward span:nth-child(2):hover {
+  background: url(../images/arrow_forward_hover.png) center;
+  //border: 1px solid #01A982;
+}
+
+
+
+
+
+

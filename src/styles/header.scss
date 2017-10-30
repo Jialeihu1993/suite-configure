@@ -1,0 +1,72 @@
+/* Application Styles for Header*/
+$headerWidth:240px;
+
+
+.container-fluid {
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #ffffff;
+}
+
+
+.navbar-header-cus{
+   
+   .navbar-header {
+        width:100%;
+        background-color: #01A982;
+        text-align: center;  
+       span {
+          font-family: HPEMetricSemiboldItalic;
+          font-size: 24px;
+          color:#ffffff;
+          line-height: 45px;
+          }
+      
+
+   } 
+  .container-fluid {
+      background: #000000;
+     } 
+
+}
+
+.nav-cus {
+  .navbar-nav{
+    padding-right:15px;
+  }
+
+ @media (min-width: 0px){
+      .navbar-right {
+           float: right !important;
+           margin-right: 15px;
+
+           .dropdown-menu {
+              left: auto;
+              right: 0;
+          }
+        }
+
+        .navbar-nav {
+          margin: 0;
+        }
+
+        .navbar-nav>li {
+           float: right;
+        }
+
+        .navbar-nav>li>a {
+            padding-top: 12px;
+            padding-bottom: 12px;
+         }
+
+     }
+}
+
+
+
+
+
+
+
+

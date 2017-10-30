@@ -1,0 +1,133 @@
+/* Application Styles for log level*/
+.noMarginBottom {
+  margin-bottom: 0px;
+}
+
+form.form-horizontal .collapseGroup hr {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.form-group span.collapseTitle {
+  font-family: HPEMetricMedium;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+form.form-horizontal span.icon-up-color {
+  color: #01A982;
+}
+
+form.form-horizontal span.icon-down-color {
+  color: #CCCCCC;
+}
+
+div.vertical {
+  height: 36px;
+}
+
+div.vertical > span {
+  margin-top: 8px;
+}
+
+.groupCus{
+  
+     .sbutton{
+
+        span {
+            display: block;
+            font-size: 18px;
+            font-family: HPEMetricMedium;
+            line-height: 35px;
+            cursor: pointer;
+            }
+        span:hover {
+                     background: #01A982;
+                     color: #ffffff;
+                    } 
+
+         span.active {
+           background: #01A982;
+           color: #ffffff;
+          }
+         span.inactive {
+              background: #ffffff;
+              color: #333333;
+           }
+
+     }
+  }
+
+  .buttonLogCus{
+      button{
+          margin-right: 0px;
+          background-color: $white;
+          height: 39px;
+          text-align: center;
+          span{
+               color: #333333 !important;
+               font-family: HPEMetricMedium;
+          }
+
+      }
+
+    button:hover {
+        background-color: $white;
+        border-color: #01A982 !important;
+        span{
+             color: #01A982 !important;
+        }
+   }
+
+   button:active {
+        background-color: $white;
+        border:1px solid  #01A982 !important;
+        box-shadow: none;
+        span{
+             color: #01A982 !important;
+        }
+   }
+
+   
+   button:focus {
+        background-color: $white;
+        border:1px solid  #01A982 !important;
+        box-shadow: none;
+        span{
+             color: #01A982 !important;
+        }
+   }
+
+
+
+}
+
+
+
+.group {
+  text-align: center;
+  height: 35px;
+}
+
+.group .start {
+  border-left: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+
+.group .end {
+  border: 1px solid #cccccc;
+}
+
+.cusMarginTop25 {
+  margin-top: 28px;
+}
+
+textarea.form-control {
+  height: 200px;
+}
+
+  
+  
+
+

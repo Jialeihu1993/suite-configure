@@ -1,0 +1,42 @@
+.MessageDialog{
+ 
+
+    .modal-title{
+ 
+        img{
+            height: 32px;
+            margin-bottom:5px;
+        }
+
+        span {
+            line-height:37px;
+            padding-left: 20px;
+        }
+    }
+
+    .modal-body{
+        padding-top:40px;
+    }
+
+    .modal-body{
+      span, p{
+            font-size: 20px;
+            font-family: HPEMetricMedium;
+        }
+    }
+
+    .modal-footer{
+        border-style:none;
+        margin-top:100px;
+        height:70px;
+       
+
+    }
+     
+
+
+
+
+
+
+}

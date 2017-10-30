@@ -1,0 +1,92 @@
+/* Application Styles for ldap*/
+form.form-horizontal > .navPath span {
+  font-size: 16px;
+  line-height: 36px;
+  color: #CCCCCC;
+}
+
+form.form-horizontal > .navPath span.current {
+  color: #01A982;
+}
+
+form.form-horizontal > .navPath span > span > span {
+  color: #01A982;
+}
+
+form.form-horizontal span {
+  font-size: 16px;
+  //color:#333333;
+  font-family: HPEMetricRegular;
+}
+
+form.form-horizontal span.glyphicon {
+  font-family: 'Glyphicons Halflings';
+}
+
+form.form-horizontal span > span {
+  font-size: 16px;
+}
+
+div.pull-right > span.warnColor {
+  font-size: 12px;
+}
+
+form.form-horizontal span.titleBig > span {
+  font-family: HPEMetricMedium;
+  font-size: 22px;
+  line-height: 36px;
+}
+
+form.form-horizontal span.titleMed > span {
+  font-family: HPEMetricMedium;
+  font-size: 20px;
+  line-height: 36px;
+
+}
+
+div .colFull {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+div .colFullLeft {
+  padding-left: 0px !important;
+}
+
+div .colFullRight {
+  padding-right: 0px !important;
+}
+
+form.form-horizontal > .navPath hr {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  height: 2px;
+}
+
+form.form-horizontal hr {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  height: 2px;
+}
+
+.cusMargin17 {
+  margin-bottom: 5px;
+}
+
+.cusMargin30 {
+  margin-bottom: 30px;
+}
+
+.black {
+  background: #000000;
+}
+
+.form-group{
+
+    span.inputTitle{
+        span{
+          font-size: 18px;
+         }
+
+     } 
+}

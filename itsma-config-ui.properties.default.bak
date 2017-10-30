@@ -1,0 +1,39 @@
+# itsma config ui contents of properties file
+[node]
+protocol = http
+server = 0.0.0.0
+port = 8080
+https_port = 8443
+base = /itsmaconfig
+
+# 30 minutes
+is_debug = false
+session_max_age = 30
+session_secret = keyboard cat
+jwt_max_age = 60
+idm_token_signingkey = idmtokensignningkey
+passwd_token_key = passwordtokenkey
+ignore_expiration = false
+clock_tolerance=43200
+# IDM token validation enabled
+enable_idm = true
+# CSRF enabled
+enable_csrf = false
+# LWSSO enabled
+enable_lwsso = false
+
+[rest]
+protocol = http
+server = localhost
+port = 8081
+base = /
+
+# 2 minutes
+proxy_timeout = 120000
+
+[user]
+admin_user=sysadmin
+
+# Logging level. Valid levels are: error, warn, info, verbose, debug, silly.
+[logging]
+level = info

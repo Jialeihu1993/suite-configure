@@ -1,0 +1,51 @@
+/**
+
+<span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x icon-background1"></i>
+    <i class="fa fa-lock fa-stack-1x "></i>
+
+</span>
+
+*/
+
+.icon-background1 {
+    color: #01A982;
+}
+
+.change-item-ok {
+   margin: 10px 10px 0 10px;
+   color: #01A982;  
+}
+
+.change-item-loading {
+   margin: 10px 10px 0 10px;
+   color: #333333;
+
+}
+
+.change-item-waiting {
+   margin: 10px 10px 0 10px;
+   color: #F0F0F0;
+}
+
+.change-item-warnning {
+   margin: 10px 10px 0 10px;
+   color: #FF454F;
+}
+
+i.fa,i.glyphicon {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.change-item-default {
+   font-family: HPEMetricMedium;
+   font-size: 18px;
+   color:#333333;
+}
+
+.change-item-default-child {
+   font-family: HPEMetricMedium;
+   font-size: 16px;
+   color:#333333;
+}

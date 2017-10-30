@@ -1,0 +1,42 @@
+.toggle_input{
+   display:none;
+}
+
+.toggle_label{
+   position:relative;
+   display: block;
+   border-radius: 10px;
+   width:48px;
+   height: 21px;
+   opacity: 1;
+   background-color: #CCCCCC;
+   cursor: pointer;
+}
+.toggle_label:before{
+   color:#01A982;
+   display: block;
+   border-radius: 10px;
+}
+.toggle_label:after{
+   content: '';
+   position: absolute;
+   bottom: -5px;
+   left: -1px;
+   width: 29px;
+   height: 29px;
+   opacity: 1;
+   border-radius: 50%;
+   border: 1px solid #CCCCCC;
+   background-color: #FFFFFF;
+   transition: all 0.3s ease;
+}
+.toggle_input:checked ~ .toggle_label:after{
+   margin-left: 22px;
+   border-color: #01A982;
+}
+
+.toggle_input:checked ~ .toggle_label:before{
+   background-color:#01A982;
+   content: ' ';
+   height: 21px;
+}

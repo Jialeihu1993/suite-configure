@@ -1,0 +1,45 @@
+.progressBarcus {
+
+     background-color: rgba(#cccccc,0.2);
+
+ div.modal-dialog{
+     width:960px;
+ }
+    
+ .modal-content{
+
+     height:144px;
+     background-color:rgba(#ffffff, 0);
+     box-shadow: none;
+     border-style: none;
+ }
+
+ .modal-body{
+     padding-top:57px;
+
+     span{
+         position: absolute;
+         height:29px;
+         line-height: 29px;
+         color:#ffffff;
+         width:100%;
+         text-align: center;
+     }
+ }
+
+ .progress{
+        height:29px;
+        margin-bottom:0px; 
+        background-color: transparent;
+        box-shadow: none;
+        border-style: none; 
+ }
+
+ .progress-bar{
+     height:29px;
+     background-color: #01A982;
+ }
+
+
+ 
+}

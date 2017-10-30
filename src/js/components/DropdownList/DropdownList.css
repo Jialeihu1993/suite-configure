@@ -1,0 +1,54 @@
+.react_select_input{
+	font-family:MetricHPE-Regular;
+	font-size:18px;
+	color:#333333;
+	display: block;
+	width: 341.88px;
+	height: 39px;
+	line-height:41px;
+	font-size: 16px;
+	border-radius: 2px;
+	border: 1px solid #219AC8;
+	padding-left:15px;
+	background-color:#FFFFFF;
+	text-decoration: none;
+	background: url(../../../svg/arrow-down.svg) no-repeat right;
+	background-size: 18px;
+}
+
+.react_select_drop_down{
+	display: none;
+	width: 341.88px;
+	border:1px solid #219AC8;
+	overflow-y:auto;
+	overflow-x: hidden;
+}
+
+.react_select_drop_down ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
+}
+.react_select_drop_down ul li{
+	width: 341.88px;
+	height: 39px;
+	line-height: 41px;
+	vertical-align: middle;
+	padding-left:15px;
+	list-style: none;
+	list-style-type: none;
+}
+
+.react_select_drop_down ul li:hover{
+	background-color:#01A982;
+}
+
+::-webkit-scrollbar{  
+    width: 9px;  
+    height: 30px;
+}  
+
+::-webkit-scrollbar-thumb {  
+    height: 30px;
+    background-color: #CCCCCC;  
+}
